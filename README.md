@@ -5,12 +5,13 @@ An end-to-end ETL pipeline that extracts supply chain data from AWS S3, performs
 <img width="812" height="188" alt="Image" src="https://github.com/user-attachments/assets/ee7007b7-ef30-4a1d-87f4-dbcff11cef9a" />
 
 This ETL pipeline is designed to extract raw supply chain data from AWS S3, transform it using PySpark, and load the modeled data into Snowflake for analytics and reporting.
+
 **1. Extraction — AWS S3 with boto3**
--The pipeline connects to AWS S3 using the boto3 SDK and AWS APIs.
+  The pipeline connects to AWS S3 using the boto3 SDK and AWS APIs.
 
--Raw data files (CSV/JSON) are retrieved from a specified S3 bucket.
+  Raw data files (CSV/JSON) are retrieved from a specified S3 bucket.
 
--The extraction step ensures secure and efficient data retrieval for downstream processing.
+  The extraction step ensures secure and efficient data retrieval for downstream processing.
 
 **2. Transformation — Data Cleaning & Modeling with PySpark**
 Using PySpark, the data undergoes a comprehensive transformation process:
