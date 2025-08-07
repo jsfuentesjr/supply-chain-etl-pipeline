@@ -1,0 +1,4 @@
+boto3==1.37.10
+pyspark==3.5.4
+pandas==2.2.3
+snowflake-connector-python
